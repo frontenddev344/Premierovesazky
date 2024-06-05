@@ -43,7 +43,7 @@ a {
 }
 
 .container {
-    max-width: 1920px;
+    max-width: 1320px;
     margin: 0 auto;
     padding-left: 2%;
     padding-right: 2%;
@@ -93,7 +93,7 @@ p{
     z-index: 999;
 }
 .site-logo img {
-    max-width: 120px;
+    max-width: 150px;
 }
 .nav-bar ul{
     display: flex;
@@ -104,10 +104,10 @@ p{
     margin: 0 15px;
 }
 .nav-bar ul li a{
-    font-size: 16px;
+    font-size: 18px;
     color: #2961ab;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 700;
     position: relative;
     transition: all 0.3s linear;
 
@@ -132,9 +132,9 @@ transition: all 0.3s linear;
 }
 
 .contact-us a{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
-    padding: 12px 20px;
+    padding: 15px 20px;
     background-color: #2961ab;
     color: #fff;
     transition: all 0.3s linear;
@@ -155,7 +155,7 @@ transition: all 0.3s linear;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 80vh;
     position: relative;
 }
 .site-banner .container{
@@ -163,25 +163,25 @@ transition: all 0.3s linear;
 }
 .banner-wrap {
     height: 100%;
-    width: 70%;
+    max-width: 900px;
     display: flex;
     align-items: center;
     position: relative;
 }
 .banner-txt h1{
-    font-size: 50px;
+    font-size: 70px;
     color: #fff;
     line-height: 1.1;
     font-weight: 700;
 }
 .banner-txt p{
-    font-size: 20px;
+    font-size: 22px;
     color: #fff;
 }
 /* banner section css end  */
 /* banner bottom text css  */
 .bottom-text{
-    width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
     text-align: center;
 }
@@ -199,17 +199,19 @@ transition: all 0.3s linear;
     padding: 20px;
 }
 .top-txt h2 {
-    font-size: 40px;        
+    font-size: 50px;        
     font-weight: 600;
     margin-bottom: 20px;
 }
 .top-txt p {
-    font-size: 20px;
+    font-size: 22px;
 }
 .top-sec-img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 500px;
+
 }
 .top-left-img{
     width: 49%;
@@ -236,9 +238,7 @@ transition: all 0.3s linear;
     object-fit: cover;
     border-radius: 10px;
 }
-.top-sec-img{
-    height: 450px;
-}
+
 .top-sec .row{
     align-items: center;
 }
@@ -249,7 +249,7 @@ transition: all 0.3s linear;
     margin-bottom: 30px;
 }
 .main-img {
-    height: 450px;
+    height: 500px;
     overflow: hidden;
 }
 .main-img img{
@@ -284,7 +284,7 @@ transition: all 0.3s linear;
 }
 .card-wrap {
     position: relative;
-    height: 400px;
+    height: 450px;
     overflow: hidden;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -296,23 +296,213 @@ transition: all 0.3s linear;
    transform: translateX(-50%);
 }
 .card-txt h4{
-    font-size: 25px;
+    font-size: 30px;
     color: #fff;
     font-weight: 700;
 }
 /* card section end */
 /* disclaimer section css start */
 .disclaimer-txt h4{
-    font-size: 25px;
+    font-size: 30px;
     color: var(--Primary);
     font-weight: 600;
 }
 .disclaimer-txt p{
-    font-size: 14px;
+    font-size: 16px;
 }
 
 
 /* disclaimer section css end  */
+
+
+/* sub pages css start  */
+.sub-banner{
+    background-image: url(../images/hero-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+.sub-banner .container{
+    height: 100%;
+}
+.sub-banner-wrap{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.sub-bnr-txt h2{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+.sub-bnr-txt p{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.monte-carlo .top-sec-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.monte-carlo .top-txt p{
+    font-size: 18px;
+}
+.site-heading h2{
+    font-size: 40px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+
+}
+.price{
+    margin: 10px 0;
+}
+.price p{
+    font-weight: 500;
+    font-style: italic;
+    margin: 5px 0;
+}
+.price p span{
+display: block;
+}
+.price p span i{
+    color: var(--Primary);
+}
+.read-more a{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 13px 40px;
+    /* background-color: var(--Primary); */
+    background-color: var(--Secondary);
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 15px;
+}
+.privacy-wrap{
+    /* margin: 20px 0; */
+    margin-bottom: 30px;
+}
+.privacy-wrap ul{
+    list-style: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+.privacy-wrap p, .privacy-wrap ul li{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.privacy-wrap ul li{
+    margin-bottom: 5px;
+}
+/* sub pages css end  */
+
+
+
+
+/* faq css start */
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+    transition: all 0.5s;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+}
+
+.accordion-button::after {
+    transition: all 0.5s;
+}
+
+.accordion-item {
+    background-color: #fff;
+    border: none;
+}
+
+.accordion-button:not(.collapsed),
+.accordion-button {
+    color: #fff;
+    background-color: var(--Secondary);
+    box-shadow: none;
+}
+
+.accordion-item {
+    margin-bottom: 15px;
+}
+
+.accordion-body {
+    padding: 1rem 1.25rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+:focus-visible {
+    outline: none;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-button {
+    border-radius: 10px !important;
+    font-size: 18px;
+}
+
+.accordion-button:not(.collapsed) {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.accordion-button::after {
+    filter: brightness(0) invert(1);
+}
+
+.site-heading h2 {
+    font-size: 40px;
+    color: var(--Primary);
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+div#accordionExample {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* faq css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer css start  */
 .site-footer{
@@ -322,7 +512,7 @@ transition: all 0.3s linear;
     max-width: 200px;
 }
 .footer-heading h4 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     margin-bottom: 20px;
     text-transform: capitalize;
@@ -334,6 +524,7 @@ transition: all 0.3s linear;
     position: relative;
     text-transform: capitalize;
     transition: all 0.3s linear;
+    font-weight: 500;
 }
 .footer-links ul li a::before{
 content: '';
@@ -341,7 +532,7 @@ position: absolute;
 bottom: -5px;
 left: 0;
 width: 0%;
-height: 1px;
+height: 2px;
 background-color: var(--Primary);
 transition: all 0.3s linear;
 
@@ -357,15 +548,17 @@ transition: all 0.3s linear;
 }
 .social-links ul li a{
     display: inline-block;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #2961ab;
-    border-radius: 50%;
+    border-radius: 70px;
     color: var(--Primary);
     transition: all 0.3s linear;
+
 }
 .social-links ul li a:hover{
     background-color: var(--Primary);
@@ -379,3 +572,16 @@ transition: all 0.3s linear;
     align-items: center;
 }
 /* footer css end  */
+
+.toggle, .close{
+    display: none;
+}
+.site-header.fixed-header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
