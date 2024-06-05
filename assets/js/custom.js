@@ -30,5 +30,5 @@ $(window).scroll(function(){
 
 
 AOS.init({
-    duration: 1000
-  });
+    duration: 1200,
+  })
