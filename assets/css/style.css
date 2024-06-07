@@ -86,7 +86,7 @@ p{
 /* header css start  */
 .site-header {
     padding: 10px 0;
-    /* position: fixed; */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -94,6 +94,7 @@ p{
 }
 .site-logo img {
     max-width: 150px;
+    filter: brightness(0) invert(1);
 }
 .nav-bar ul{
     display: flex;
@@ -105,7 +106,7 @@ p{
 }
 .nav-bar ul li a{
     font-size: 18px;
-    color: #2961ab;
+    color: #fff;
     text-transform: uppercase;
     font-weight: 700;
     position: relative;
@@ -120,7 +121,7 @@ bottom: -15px;
 left: 0;
 width: 0;
 height: 2px;
-background-color: #2961ab;
+background-color: #fff;
 transition: all 0.3s linear;
 
 }
@@ -128,22 +129,22 @@ transition: all 0.3s linear;
     width: 100%;
 }
 .nav-bar ul li a.active, .nav-bar ul li a:hover{
-    color: #2961ab;
+    color: #fff;
 }
 
 .contact-us a{
     font-size: 16px;
     font-weight: 500;
     padding: 15px 20px;
-    background-color: #2961ab;
-    border: 1px solid #2961ab;
+    background-color: transparent;
+    border: 1px solid #fff;
     color: #fff;
     transition: all 0.3s linear;
     border-radius: 8px;
 }
 .contact-us a:hover{
     background-color: transparent;
-    color: #2961ab;
+    color: #fff;
 }
 .site-header nav{
     display: flex;
