@@ -143,6 +143,17 @@
     .toggle{
         display: block;
         font-size: 25px;
+        color: #fff;
+    }
+    .nav-bar ul li a{
+        color: #000;
+    }
+    .nav-bar ul li a::before {
+        background-color: #2961ab;
+      
+    }
+    .nav-bar ul li a.active, .nav-bar ul li a:hover {
+        color: #2961ab;
     }
     .nav-bar ul {
         align-items: flex-start;
@@ -178,6 +189,9 @@
     .site-footer .col-lg-3 {
         margin-bottom: 30px;
     }
+
+
+
 }
 @media(max-width:850px){
     .site-banner {
