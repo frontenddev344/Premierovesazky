@@ -151,6 +151,42 @@ transition: all 0.3s linear;
     justify-content: space-between;
     align-items: center;
 }
+
+
+.toggle, .close{
+    display: none;
+}
+.site-header.fixed-header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.site-header.fixed-header .site-logo img {
+    filter: inherit;
+}
+
+.fixed-header .nav-bar ul li a.active, .fixed-header .nav-bar ul li a:hover {
+    color: var(--Primary);
+}
+.fixed-header .nav-bar ul li a {
+    color: #000;
+}
+.fixed-header .nav-bar ul li a::before{
+background-color: var(--Primary);
+}
+.fixed-header .contact-us a{
+background-color: var(--Primary);
+border-color: #2961ab;
+}
+.fixed-header .contact-us a:hover{
+    background-color: transparent;
+    color: var(--Primary);
+}
+
 /* header css end  */
 /* banner section css start */
 .site-banner{
@@ -583,15 +619,3 @@ transition: all 0.3s linear;
 }
 /* footer css end  */
 
-.toggle, .close{
-    display: none;
-}
-.site-header.fixed-header{
-    position: fixed;
-    top:0;
-    left: 0;
-    width: 100%;
-    z-index: 999;
-    background-color: #fff;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
