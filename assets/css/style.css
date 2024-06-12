@@ -62,6 +62,9 @@ img {
     background-color: #000;
     opacity: 0.5;
 }
+.pt-50 {
+    padding-top: 50px ;
+}
 
 .ptb-50 {
     padding: 50px 0;
@@ -233,9 +236,12 @@ border-color: #2961ab;
     font-size: 18px;
 
 }
-
+.moretext {
+    display: none;
+  }
 .top-txt {
     padding: 20px;
+    text-align: center;
 }
 .top-txt h2 {
     font-size: 50px;        
@@ -392,6 +398,19 @@ border-color: #2961ab;
 }
 .monte-carlo .top-txt p{
     font-size: 18px;
+    text-align: center;
+}
+a.moreless-button {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 13px 40px;
+    background-color: var(--Secondary);
+    border: 1px solid #1ecfe6;
+    transition: all 0.3s linear;
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 15px;
 }
 .site-heading h2{
     font-size: 40px;
